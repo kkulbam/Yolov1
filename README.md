@@ -1,2 +1,4 @@
 # Yolov1
- object detection task into a regression problem and using a single neural network for image processing
+ 将目标检测问题转化为一个回归问题 通过一个统一的神经网络来预测目标类别和位置信息
+ 回归问题是一种常见的监督学习问题 目标是通过已有的数据来预测一个或者多个连续的数值输出（从输入特征中预测一个连续的目标值）
+ Yolov1的一些主要概念
