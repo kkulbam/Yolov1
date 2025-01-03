@@ -22,8 +22,8 @@ def conv2d(image,kernel):
 
     # 提取图像的一个区域 和卷积核及逆行元素级乘法并求和
  
-            region = image[i:i + kernel_height,j:j + kernel_width]           
-            output[i,j] = np.sum(region * kernel)
+            region = image[i:i + kernel_height,j:j + kernel_width]        # 提取图像特征   
+            output[i,j] = np.sum(region * kernel)                         # 元素级乘法求和
     return output
 
 # 输入图像和卷积核
